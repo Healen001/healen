@@ -1,0 +1,9 @@
+======================================================feiBa程序说明============================================================================================
+
+1、启动类为：FeiBaApplication 直接启动main方法即可。
+2、在此之前可以配置参数在application.properties中，可以配置输出路径，端口，循环时间，api等等。
+3、在log4j2里面可以修改日志的输出路径<property name="FILE_PATH" value="D:/healen/logs"/>可以修改value值
+
+重要：一定要修改的地方为
+1. application.properties中的filePath=D:/healen/feibaTest/要修改
+2. log4j2.xml中的日志的输出路径<property name="FILE_PATH" value="D:/healen/logs"/>要修改
